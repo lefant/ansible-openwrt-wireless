@@ -1,0 +1,4 @@
+---
+# handlers file for openwrt-wireless
+- name: reload network
+  raw: /etc/init.d/network reload
